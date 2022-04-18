@@ -1,0 +1,455 @@
+/*@media only screen and (min-width:640px) and (max-width:767px){
+
+body{
+ background-color:blue;
+}
+ 
+ }*/
+
+.navigation .navbar .navbar-toggler .toggler-icon {
+    width: 30px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 5px 0;
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+
+
+@media only screen and (min-width:480px) and (max-width:639px){
+
+body{
+ background-color:none;
+}
+
+
+#home{
+background:linear-gradient(rgba(34,54,69,0.8),rgba(34,54,69,0.8)),url(../Image/header.jpg);
+height:105vh;
+background-position: 100%;
+background-size: cover;
+}
+
+.header__title{
+position: absolute; 
+top: 55%;
+left: 51%;
+width:95%;
+transform: translate(-50% , -50%);
+}
+
+
+
+.header__title h1{
+  font-style: normal;
+  color: white;
+  font-weight:800;
+  letter-spacing: 1.5px;
+word-spacing: 1.2px;
+font-size:50px;
+line-height:50px;
+font-family: 'Amiri', serif;
+}
+
+
+.small__title{
+font-size:14px;
+font-family: 'Poppins', serif;
+font-weight:500;
+line-height: 23px;
+width: 100%;
+margin: 10px;
+color: rgb(249,249,249,0.9);
+text-transform:capitalize;
+letter-spacing: 1.2px;
+position: relative;
+}
+
+
+/*===========================
+     Client Customer help 
+===========================*/
+
+
+.boxx22{
+background-color: #e12454;
+padding: 60px;
+text-align: left;
+position: relative;
+border-bottom: 1px solid rgba(249,247,247,0.3);
+}
+
+
+.hero__title__text h4{
+  font-size:20px;
+font-family: 'Poppins', serif;
+font-weight:800;
+margin:0px;
+color: #FFF;
+text-transform:capitalize;
+letter-spacing: 1.2px;
+position: relative;
+top: 13px;
+}
+
+
+.boxx33{
+background-color: #283B49;
+padding: 50px;
+text-align: left;
+border-right: 1px solid rgba(249,247,247,00.1);
+}
+
+.hero__title__text1 h4{
+ font-size:20px;
+font-family: 'Poppins', serif;
+font-weight:800;
+margin:0px;
+color: #FFF;
+text-transform:capitalize;
+letter-spacing: 1.2px;
+position: relative;
+top:10px;
+margin-left: 40px;
+}
+
+.img1 img{
+  position: relative;
+  top: 0px;
+  width: 40px;
+  left:20px;
+}
+
+
+
+/*===========================
+    Amazing Feature
+===========================*/
+
+.hero__amazing__feature{
+padding: 0px;
+margin-top:70px;
+}
+
+
+.hover-boxx{
+
+ box-shadow: 2px 8px 30px rgb(92 104 152 / 10%);
+}
+
+
+.hero__title__name{
+  text-align: left;
+  width:95%;
+
+}
+
+.hero__title__name::before{
+  content: "";
+  width:80px;
+  height: 5px;
+  background-color:#e12454;
+  top:37%;
+  left:0px;
+  position: absolute;
+}
+
+.hero__title__name::after{
+  content: "";
+  width:10px;
+  height: 5px;
+  background-color:#283b49;
+  top:37%;
+  left:90px;
+  position: absolute;
+}
+
+
+
+.hero__item_Feature__1{
+border: 1px solid none;
+padding: 30px;
+background-color: white;
+width: 453px;
+position: relative;
+top: -100px;
+left:0px;
+ box-shadow: 2px 8px 30px rgb(92 104 152 / 10%);
+}
+
+
+
+.hero__img{
+  border: 1px solid none;
+  height: 380px;
+background: url('../Image/wordpress.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.hero__feature__container{
+margin-top: 50px;
+
+}
+
+
+
+/* Card -- 2 ----*/
+
+.hero__img1{
+  border: 1px solid none;
+height: 350px;
+background: url('../Image/custom-web-design.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+
+.hero__item_Feature__2{
+  border: 1px solid none;
+  padding: 30px;
+  background-color: white;
+  width: 453px;
+  position: relative;
+  top: -100px;
+  left:0px;
+      box-shadow: 2px 8px 30px rgb(92 104 152 / 10%);
+  
+  }
+
+
+   /* Card --- 3 ---- */
+
+.hero__img2{
+  border: 1px solid none;
+height: 350px;
+background: url('../Image/ecommerce.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+
+  .hero__item_Feature__3{
+    border: 1px solid none;
+    padding: 30px;
+    background-color: white;
+    width: 453px;
+    position: relative;
+    top: -100px;
+    left:0px;
+        box-shadow: 2px 8px 30px rgb(92 104 152 / 10%);
+    }
+
+
+
+    /* Card --- 4 ----- */
+
+
+    .hero__img3{
+  border: 1px solid none;
+height: 350px;
+background: url('../Image/landing.png');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+   .hero__item_Feature__4{
+  border: 1px solid none;
+  padding: 30px;
+  background-color: white;
+  width: 453px;
+  position: relative;
+  top: -100px;
+  left:0px;
+      box-shadow: 2px 8px 30px rgb(92 104 152 / 10%);
+  
+  }
+
+
+
+
+
+/*===========================
+    Service Section 
+===========================*/
+
+
+.overlap-section11{
+background-color:#283b49;
+padding: 80px 0px;
+
+}
+
+.service__title{
+width:100%;
+text-align: center;
+line-height: 25px;
+
+}
+
+
+.service_container::before{
+	display: none;
+}
+
+
+
+/*===========================
+    Price Section
+===========================*/
+
+.price__section{
+margin-top: 80px;
+margin-bottom: 50px;
+}
+
+
+.price__title{
+width:100%;
+text-align: center;
+}
+
+
+.price__card{
+padding: 30px;
+background-color: #EBF5F5;
+transition: 0.5s ease-in-out;
+cursor: pointer;
+margin-bottom:30px;
+
+}
+
+.price__color{
+  background-color: white;
+   box-shadow:0  5px 10px rgba(154,160,185,0.05),
+  0 15px 40px rgba(166,173,201,0.2);
+  position: relative;
+  top: 40px;
+ margin-bottom: 70px;
+}
+
+
+/*===========================
+   information gathering 
+===========================*/
+
+.step-by-step-process{
+padding: 100px 0px;
+margin-bottom: 30px;
+background-color: #1a2e3c; 
+position: relative;
+}
+
+.infomation-gathering{
+margin-left: 30px;
+}
+
+.process{
+  border: 1px solid white;
+  padding: 30px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+
+
+
+/*===========================
+    Contact form Code
+===========================*/
+
+
+.contact__form{
+margin-top:50px; 
+margin-bottom: 0px;
+ }
+
+
+
+
+.Contact__form__info{
+    background-color:white;
+   padding: 30px;
+   box-shadow:0  5px 10px rgba(154,160,185,0.05),
+  0 15px 40px rgba(166,173,201,0.2);
+letter-spacing: 1.5px;
+color: #051446;
+position: relative;
+right: 0px;
+top: 0px;
+}
+
+
+.input__name{
+    padding: 20px 20px;
+    background:linear-gradient(rgba(222,51,46,0.1),rgba(222,51,46,0.1));
+    border: none;
+    margin: 10px;
+    margin-left: -5px;
+    width: 100%;
+    border-radius: 3px;
+   color: #191919;
+   font-family:'Poppins',sans-serif;
+    font-size: 13px;
+    font-weight:500;
+    letter-spacing: 1.2px;
+
+
+}
+
+
+.contact__msg{
+margin: 10px;
+border: none;
+width:100%;
+margin-left: -5px;
+padding: 33px;
+ background:linear-gradient(rgba(222,51,46,0.1),rgba(222,51,46,0.1));
+}
+
+
+.contact__image {
+display: none;
+}
+
+
+
+
+.submit{
+border: none;
+background-color: #e12454;
+padding:20px 50px;
+color: white;
+margin: 10px;
+text-transform: uppercase;
+font-family:'Poppins',sans-serif;
+font-size: 12px;
+font-weight:500;
+margin-left: -5px;
+letter-spacing: 1.2px;
+border-radius: 3px;
+cursor: pointer;
+
+}
+
+
+ .contact__form::before{
+ display: none;
+
+  }
+
+ 
+}
