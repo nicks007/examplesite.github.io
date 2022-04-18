@@ -1,7 +1,7 @@
 @media only screen and (max-width: 479px){
  
  body{
-background-color: green;
+background-color: none;
 
  }
 
@@ -10,7 +10,7 @@ background:linear-gradient(rgba(34,54,69,0.8),rgba(34,54,69,0.8)),url(../Image/h
 height:90vh;
 background-position: 100%;
 background-size: cover;
-border: 1px solid red;
+border: 1px solid none;
 }
 
 
@@ -20,7 +20,7 @@ top:50%;
 left: 51%;
 width:95%;
 transform: translate(-50% , -50%);
-border: 1px solid red;
+border: 1px solid none;
 
 }
 
@@ -35,7 +35,7 @@ word-spacing: 1.2px;
 font-size:50px;
 line-height:50px;
 font-family: 'Amiri', serif;
-border: 1px solid red;
+border: 1px solid none;
 }
 
 
@@ -64,20 +64,20 @@ padding: 60px;
 text-align: left;
 position: relative;
 border-bottom: 1px solid rgba(249,247,247,0.3);
-border: 1px solid red;
+border: 1px solid none;
 }
 
 
 .hero__title__text h4{
- font-size:20px;
+ font-size:18px;
 font-family: 'Poppins', serif;
 font-weight:800;
 margin:0px;
 color: #FFF;
 text-transform:capitalize;
-letter-spacing:1px;
+letter-spacing:0.5px;
 position: relative;
-top: 13px;
+top:20px;
 }
 
 
@@ -100,7 +100,8 @@ text-transform:capitalize;
 letter-spacing: 1.2px;
 position: relative;
 top:10px;
-margin-left: 40px;
+margin-left: 25px;
+
 }
 
 .img1 img{
@@ -118,7 +119,7 @@ margin-left: 40px;
 
 .hero__amazing__feature{
 padding: 0px;
-margin-top:70px;
+margin-top:60px;
 }
 
 
@@ -130,16 +131,21 @@ margin-top:70px;
 .hero__title__name{
   text-align: left;
   width:95%;
+  margin: 0;
+  margin-left: 15px;
+}
 
+.hero__title__name h1{
+  font-size: 35px;
 }
 
 
 .hero__title__name::before{
   content: "";
   width:80px;
-  height: 5px;
+  height:5px;
   background-color:#e12454;
-  top:37%;
+  top:35%;
   left:0px;
   position: absolute;
 }
@@ -149,7 +155,7 @@ margin-top:70px;
   width:10px;
   height: 5px;
   background-color:#283b49;
-  top:37%;
+  top:35%;
   left:90px;
   position: absolute;
 }
@@ -341,6 +347,50 @@ padding: 33px;
  display: none;
 
   }
+
+.step-by-step-process{
+ padding: 0;
+padding-bottom: 70px;
+}
+
+.infomation-gathering{
+margin:10px 20px;
+padding-top: 50px;
+}
+
+.process{
+ margin-top: -20px;
+ margin:5px;
+}
+
+.Contact__form__info{
+ background-color:white;
+   padding: 30px;
+   box-shadow:0  5px 10px rgba(154,160,185,0.05),
+  0 15px 40px rgba(166,173,201,0.2);
+letter-spacing: 1.5px;
+color: #051446;
+position: relative;
+left:0px;
+top:-80px;
+}
+
+.input__name{
+   margin-left: 0;
+    width: 100%;
+  
+
+}
+
+
+.submit{
+margin-left:0px;
+}
+
+.contact__form{
+
+  margin-bottom:-130px;
+}
 
 
 }
